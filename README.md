@@ -48,7 +48,7 @@ Dataset yang digunakan merupakan Crop Recommendation Dataset yang berisi data te
 
 **Exploratory Data Analysis (EDA) for Variable Description**
 
-![image](assets\df_description.png)
+![image](assets/df_description.png)
 
 ![image](assets\df_stat_description.png)
 
