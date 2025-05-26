@@ -50,32 +50,32 @@ Dataset yang digunakan merupakan Crop Recommendation Dataset yang berisi data te
 
 ![image](assets/df_description.png)
 
-![image](assets\df_stat_description.png)
+![image](assets/df_stat_description.png)
 
-![image](assets\df_label_counts.png)
+![image](assets/df_label_counts.png)
 
 Tahap ini dilakukan deskripsi dari tiap fitur mulai dari tipe data, statistik deskriptif, dan jumlah tipe label. Hal ini untuk memberikan informasi awal mengenai dataset.
 
 **Exploratory Data Analysis (EDA) to handle Missing Value and Outliers**
 
-![image](assets\EDA_MissingValue.png)
+![image](assets/EDA_MissingValue.png)
 
 Tahap ini dilakukan pengecekan Missing Value dalam dataset. Missing Value adalah representasi dari data yang tidak ada, tidak diketahui, atau tidak relevan. Missing Value Perlu dihilangkan agar tidak merusak performa model.
 
-![image](assets\EDA_Boxplot.png)
+![image](assets/EDA_Boxplot.png)
 
 Boxplot merupakan visualisasi statistik yang menampilkan distribusi data secara ringkas melalui lima nilai statistik utama seperti kuartil pertama (Q1), median (Q2), kuartil ketiga (Q3), batas atas, dan batas bawah yang membantu mengidentifikasi nilai-nilai ekstrem di luar rentang interkuartil (IQR). Nilai-nilai yang ekstrem pada dataset berpotensi sebagai outliers.
 
 **Exploratory Data Analysis (EDA) with Univariate Analysis**
 
-![image](assets\EDA_univariate.png)
+![image](assets/EDA_univariate.png)
 
 Exploratory Data Analysis (EDA) with Univariate Analysis merupakan eksplorasi data yang berfokus menganalisis satu variabel pada satu waktu dengan tujuan memahami karakteristik dan distribusi masing-masing variabel dalam dataset secara individual.
 
 **Exploratory Data Analysis (EDA) with Multivariate Analysis**
 
-![image](assets\EDA_multivariate.png)
-![image](assets\EDA_multivariate2.png)
+![image](assets/EDA_multivariate.png)
+![image](assets/EDA_multivariate2.png)
 
 Exploratory Data Analysis (EDA) with Univariate Analysis adalah teknik eksplorasi data yang menganalisis hubungan dan interaksi antara dua atau lebih variabel secara bersamaan untuk mengidentifikasi pola, korelasi, dan dependensi dalam dataset.
 
@@ -88,29 +88,29 @@ Exploratory Data Analysis (EDA) with Univariate Analysis adalah teknik eksploras
 
 **Removing Outliers**
 
-![image](assets\zscore.png)
+![image](assets/zscore.png)
 
-![image](assets\AfterRemoveOutlier.png)
+![image](assets/AfterRemoveOutlier.png)
 
 Tahap ini menggunakan z score untuk menghilangkan outliers. Nilai-nilai yang ekstrem pada dataset berpotensi sebagai outliers perlu dihilangkan agar tidak merusak performa model.
 
 **Label Encoding**
 
-![image](assets\LE.png)
+![image](assets/LE.png)
 
-![image](assets\LabelEncoding.png)
+![image](assets/LabelEncoding.png)
 
 Label Encoding akan mengubah fitur kategorikal yaitu data berupa teks atau kategori menjadi bentuk numerik. setiap jenis nilai kategori yang ada pada fitur yang diencoding akan diubah menjadi bilangan bulat (integer) yang unik. Label Encoding ini digunakan agar algoritma Machine Learning bisa memproses informasi fitur kategorikal.
 
 **Train Test Split**
 
-![image](assets\split_data.png)
+![image](assets/split_data.png)
 
 Train-test split adalah metode untuk membagi dataset menjadi dua bagian: subset pelatihan (trainset) dan subset pengujian (testset). Dalam skenario ini, pembagian dilakukan dengan mengalokasikan 80% data untuk trainset yang digunakan untuk melatih model machine learning. Sementara itu, 20% data sisanya dialokasikan untuk testset, yang berfungsi untuk menguji kinerja model pada data yang belum pernah dilihat sebelumnya.
 
 **Standardisation with StandardScaler**
 
-![image](assets\StdScaler.png)
+![image](assets/StdScaler.png)
 
 Standard Scaler berfungsi untuk menyesuaikan setiap fitur dalam dataset agar memiliki rata-rata nol dan varians satu. Tujuannya adalah untuk menyamakan rentang nilai antar variabel, sehingga tidak ada fitur yang mendominasi model yang disebabkan oleh skala yang lebih besar.
 
@@ -188,7 +188,7 @@ Formula F1 Score : 2 * (Precision * Recall) / (Precision + Recall)
 
 **Accuracy Model Random Forest Classifier dan K-Nearest Neighbors Classifier**
 
-![image](assets\compare_acc.png)
+![image](assets/compare_acc.png)
 
 **Classification Report Model K-Nearest Neighbors Classifier**
 
